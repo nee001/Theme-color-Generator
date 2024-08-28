@@ -1,0 +1,49 @@
+:root{
+    --theme-color: #acaff1;
+    --main--color: #5351ae;
+    --dark-color: #3b3699;
+  }
+
+  .container{
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+/* ===START MARGIN CLASSES=== */
+.mt-s{
+    margin-top: 10px;
+}
+.mt-l{
+    margin-top: 20px;
+}
+.mt-xl{
+    margin-top: 30px;
+}
+/* ===END MARGIN CLASSES=== */
+
+/* ===START BUTTONS=== */
+.btn{
+    background-color: var(--main--color);
+    color: #fff;
+    padding: 10px;
+    border-radius: 20px 0px 20px 0;
+    border: none;
+    box-shadow: 2px 2px 2px grey;
+    transition: all ease-in .5s;
+}
+.btn:hover{
+    background-color: var(--dark-color);
+    scale: 1.1;
+}
+
+.btn-rounded{
+    border: 2px solid var(--dark-color);
+    color: var(--dark-color);
+    font-weight: 900;
+    background-color: transparent;
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px grey;
+    transition: all ease-in .5s;
+}
+/* ===END BUTTONS=== */
